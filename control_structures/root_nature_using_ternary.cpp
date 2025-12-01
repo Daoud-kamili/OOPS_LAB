@@ -1,4 +1,3 @@
-// This program determines the nature of the roots of a quadratic equation using nested ternary operators.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -14,3 +13,4 @@ int main()
 
     return 0;
 }
+
