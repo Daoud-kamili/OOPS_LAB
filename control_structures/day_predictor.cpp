@@ -39,8 +39,8 @@ int main()
         year -= 1;
     }
 
-    int K = year % 100; // Year of the century
-    int J = year / 100; // Zero-based century
+    int K = year % 100; 
+    int J = year / 100; 
     int h = (day + (13 * (month + 1)) / 5 + K + K / 4 + J / 4 + 5 * J) % 7;
 
     int dayOfWeek = ((h + 5) % 7) + 1;
@@ -73,3 +73,4 @@ int main()
 
     return 0;
 }
+
